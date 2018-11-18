@@ -1,0 +1,389 @@
+@charset "utf-8";
+/* CSS Document */
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+
+
+
+
+body {
+	margin:0px;
+	background-image: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/grey_wash_wall.png);
+	background-size: auto;
+	background-repeat: repeat repeat;
+}
+
+
+body,td,th {
+  color: #000;
+  font-size: 10px;
+    font-family: Trebushet, Geneva, sans-serif;
+}
+
+a:link {
+  color: #2e669d;
+  text-decoration: none;
+}
+a:visited {
+  color: #2e669d;
+  text-decoration: none;
+}
+a:hover {
+  color: #2e669d;
+  text-decoration: none;
+}
+a:active {
+  color: #2e669d;
+  text-decoration: none;
+}
+p {
+  margin:0px;
+}
+
+hr{
+clear:both;
+margin: 16px 0px;
+background: #D5D5D5;
+color: #D5D5D5;
+border: none;
+height: 1px;
+
+}
+
+
+.header {
+margin: auto;
+height: 161px;
+
+}
+
+#wraper{
+width: 990px;
+margin: 0 auto;
+}
+
+
+.logo {
+	height: 98px;
+	width: 250px;
+	background-image: url(../images/image2.png);
+	margin-top: 20px;
+	float: left;
+	background-repeat: no-repeat;
+  
+}
+.top-news {
+width: 730px;
+height: 96px;
+float: right;
+background-image: url(../images/tisam.jpg);
+background-repeat: no-repeat;
+margin: 0px;
+box-shadow: 0 0 14px rgba(0, 0, 0, 0.7);
+margin-top: 20px;
+}
+.top-text {
+  width: 450px;
+  margin-top: 6px;
+}
+.top-menu {
+	height: 18px;
+	margin-top: 132px;
+	font-size: 13px;
+	color: #FFF;
+	font-weight: bold;
+	padding: 6px 0px 7px 0px;
+	text-align: center;
+	background-color: black;
+	width: 987px;
+	border-left: 3px white solid;
+	 
+	float: none;
+	position: absolute;
+	box-shadow: 0 0 101px rgba(255, 255, 255, 0.49);
+	}
+	
+		
+.top-menu a {
+  color: #DDD;
+  margin: 0 4px 0 4px;
+}
+
+.top-menu a:hover {
+  
+  text-decoration:underline;
+  
+}
+
+.content {
+  margin-top: 18px;
+  background-color: #FFF;
+  overflow: hidden;
+  width: 990px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top:18px;
+  
+  border: solid 1px #fff;
+	box-shadow: 0 0 5px rgb(44, 44, 44);
+	position:relative;
+}
+.content-b {
+  padding: 3px;
+  margin-bottom: 10px;
+}
+.content-b ul{
+  padding-left: 12px;
+  margin: 0px;
+}
+.content-b li{
+  list-style-type: disc;
+  color: #F00;
+}
+.news {
+  width: 770px;
+  float: left;
+  padding-left: 20px;
+}
+.razdel {
+  width: 770px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 22px;
+  padding: 3px;
+
+}
+.razdel-t {
+  font-size: 14px;
+	font-weight: bold;
+	padding-left: 13px;
+	border-left: 4px solid rgb(143, 8, 8);
+	
+	}
+.news-r {
+width: 100%;
+font-size: 12px;
+float: left;
+line-height: 18px;
+border-bottom: 1px solid #D5DADF;
+padding-bottom: 15px;
+}
+.news-cat {
+  width: 520px;
+  font-size: 12px;
+  float: left;
+  margin-top: -5px;
+}
+.news .razdel .spisok {
+  font-size: 10px;
+  width: 240px;
+  float: right;
+  margin-top: 61px;
+}
+.news .razdel .spisok ul {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  color: #F00;
+  margin: 0px;
+}
+.news .razdel .spisok li {
+  padding:0px;
+  margin: 0px;
+
+}
+
+.news .razdel .news-r .title {
+  font-size: 16px;
+  color: #2E669D;
+}
+
+
+.block {
+  width: 170px;
+  float: right;
+  margin-right: 10px;
+  border-left: 1px solid #ddd;
+}
+.title-b {
+  height: 18px;
+  font-size: 12px;
+  width: 145px;
+  padding-left: 12px;
+  padding-top: 2px;
+  font-weight: bold;
+border-left: 4px solid #2e669d;
+}
+.footer {
+height: 53px;
+width: 990px;
+color: #FFF;
+font-size: 10px;
+padding: 15px 2px 3px 2px;
+margin-top: auto;
+margin-right: auto;
+margin-left: auto;
+background-color: black;
+}
+.footer a {
+  color: #FFF;
+}
+.footer .copy {
+float: left; 
+margin-top: -4px;
+}
+.footer .adress {
+  width: 180px;
+  float: right;
+  vertical-align: middle;
+}
+.act-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  padding: 3px;
+}
+.act-title a {
+color: rgb(143, 8, 8);
+} 
+.title-actnews { 
+  font-size: 20px;
+  font-weight:bold;
+
+}
+.act-news {
+  font-size: 13px;
+  margin-top: 10px;
+  clear: left;
+}
+
+
+.podrob {
+
+  float: left;
+  margin-top: 10px;
+  font-size: 10px;
+  
+} 
+
+
+/* АНДРЕЙ */
+
+.sape ul {
+padding-left:17px;
+}
+
+.sape{
+position: absolute;
+width: 187px;
+right: -6px;
+top: 940px;
+
+}
+
+
+img{
+margin: 0px 10px 10px 1px;
+float: left;
+box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.16);
+border: 5px solid #fff;
+
+}
+
+
+.b-top {z-index:2600;position:fixed;left:0;bottom:33px;width:34%;margin-left:50%;opacity: 0.5;filter:alpha(opacity=50);}
+.b-top:hover {opacity:1;filter:alpha(opacity=100);cursor:pointer;}
+
+.b-top-but {
+z-index:2600;
+position:absolute;
+display:block;
+left:52px;
+bottom:0;
+margin:0 0 0 100%;
+padding:32px 11px 6px 9px;
+color:white;
+background:#000 url(http://site.yandex.ru/static/css/blocks/b-j-top/b-j-top.png) no-repeat 50% 11px;
+border-left: 3px solid #fff;
+}
+
+.dpad{
+
+margin-top: 8px;
+
+}
+
+.title {
+	font-size:16px;
+  color: gray !important;
+
+}
+
+.fbutton{ 
+
+font-size: 11px;
+background-color: black;
+color: white;
+border: 0;
+
+}
+
+.info{
+color: #999;
+font-size: 10px;
+border-top: 1px solid #D5DADF;
+height: 30px;
+padding-top: 5px;
+
+}
+
+.info_shortstory{
+color: #999;
+font-size: 10px;
+height: 28px;
+
+}
+
+.info div ,.info_shortstory div{
+float:left;
+margin-right: 8px;
+}
+
+.data {
+
+}
+
+.views{
+background-image: url(../dleimages/views.png);
+background-repeat: no-repeat;
+padding-left: 21px;
+background-position-y: 3px;
+}
+
+.line{
+width:100%;
+border-top: 1px solid #D5DADF;
+margin-top: 30px;
+}
